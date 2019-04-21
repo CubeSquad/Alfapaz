@@ -18,7 +18,7 @@ if(trim($name_booking ) == '') {
 	echo '<div class="error_message">Enter your Name and Last name.</div>';
 	exit();
 } else if(trim($email_booking) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo '<div class="error_message">Por favor ingresa una dirección válida.</div>';
 	exit();
 } else if(!isEmail($email_booking)) {
 	echo '<div class="error_message">You have enter an invalid e-mail address, try again.</div>';

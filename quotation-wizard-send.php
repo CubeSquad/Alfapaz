@@ -38,7 +38,7 @@
 						$mail = $_POST['email_quote'];
 
 						/*$subject = "".$_POST['subject'];*/
-						$to = "info@domain.com";
+						$to = "info@alfapaz.com";
 						$subject = "Quotation request from HOMEALARMS";
 						$headers = "From: Alfapaz -Website <info@cubesquad.org>";
 						$message = "\nDETALLES";
@@ -66,7 +66,7 @@
 						//Confirmation page
 						$user = "$mail";
 						$usersubject = "Gracias";
-						$userheaders = "De: info@cubesquad.org\n";
+						$userheaders = "De: info@alfapaz.com\n";
 						/*$usermessage = "Thank you for your time. Your request is successfully submitted.\n"; WITH OUT SUMMARY*/
 						//Confirmation page WITH  SUMMARY
 						$usermessage = "Gracias por tu tiempo, tu solicitud ha sido enviada correctamente.\n\n.\n$message";
