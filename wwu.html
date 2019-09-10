@@ -32,18 +32,18 @@
   <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
     <!-- GOOGLE WEB FONT -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
   <!-- FA-icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- BASE CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/menu.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
-  <link href="css/elegant_font/elegant_font.min.css" rel="stylesheet">
-  <link href="css/fontello/css/fontello.min.css" rel="stylesheet">
-  <link href="css/magnific-popup.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/elegant_font/elegant_font.min.css" rel="stylesheet">
+	<link href="css/fontello/css/fontello.min.css" rel="stylesheet">
+	<link href="css/magnific-popup.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -61,7 +61,7 @@
 	<div class="layer"></div><!-- Mobile menu overlay mask -->
 
 	<!-- Header================================================== -->
-  <header>
+	<header>
     <div id="top_line">
       <div class="container">
         <div class="row">
@@ -116,36 +116,34 @@
 	<section class="parallax_window_in short" data-parallax="scroll" data-image-src="img/subheader_in_3.jpg" data-natural-width="1400" data-natural-height="350">
 		<div id="sub_content_in">
 			<div class="container">
-				<h1>Te visitamos?</h1>
-				<p>"Usu habeo equidem sanctus no ex melius"</p>
+				<h1>Contáctanos</h1>
+				<p>"Tu seguridad es nuestra prioridad"</p>
 			</div>
 		</div>
 	</section><!-- End section -->
 
-   	<main>
+      <main>
         <div class="container margin_60_35">
         	<div class="row">
 
-                <div class="col-md-9">
-                <form id="quotation" action="quotation-normal_2.php" method="POST">
-                	<div class="form_title">
-                        <h3><strong><i class="icon-user-8"></i></strong>Información personal</h3>
-                        <p>
-                            Mussum ipsum cacilds, vidis litro abertis.
-                        </p>
-                    </div>
-                    <div class="step">
+            <div class="col-md-9">
+
+
+               <hr>
+
+              <div id="message-contact"></div>
+                <form method="post" action="assets/contact.php" id="contactform">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Nombre</label>
-                                <input type="text" class="form-control required" id="firstname_quote" name="firstname_quote">
+                                <input type="text" class="form-control" id="name_contact" name="name_contact" >
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Apellido</label>
-                                <input type="text" class="form-control required" id="lastname_quote" name="lastname_quote">
+                                <input type="text" class="form-control" id="lastname_contact" name="lastname_contact">
                             </div>
                         </div>
                     </div>
@@ -153,169 +151,43 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Email</label>
-                                <input type="email" class="form-control required" id="email_quote" name="email_quote">
+                                <input type="email" id="email_contact" name="email_contact" class="form-control" >
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-group">
                                 <label>Teléfono</label>
-                                <input type="text" class="form-control required" id="phone_quote" name="phone_quote">
+                                <input type="text" id="phone_contact" name="phone_contact" class="form-control">
                             </div>
                         </div>
                     </div>
-                </div><!--End step -->
-
-                <div class="form_title">
-                        <h3><strong><i class="icon-location-5"></i></strong>Dirección</h3>
-                        <p>
-                            Mussum ipsum cacilds, vidis litro abertis.
-                        </p>
-                    </div>
-               	<div class="step">
-				<div class="row">
-                    <div class="col-md-6 col-sm-6">
-						<div class="form-group">
-							<label>Ciudad</label>
-							<input type="text" id="city_quote" name="city_quote" class="form-control required">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6">
-						<div class="form-group">
-							<label>Calle principal</label>
-							<input type="text" id="street_quote" name="street_quote" class="form-control required">
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-3">
-						<div class="form-group">
-							<label>Provincia</label>
-							<input type="text" id="state_quote" name="state_quote" class="form-control">
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-3">
-						<div class="form-group">
-							<label>Código postal</label>
-							<input type="text" id="postal_code_quote" name="postal_code_quote" class="form-control required">
-						</div>
-					</div>
-				</div>
-			</div><!--End step -->
-
-            <div class="form_title">
-                        <h3><strong><i class="icon-calendar-empty"></i></strong>Agenda una visita</h3>
-                        <p>
-                            Mussum ipsum cacilds, vidis litro abertis.
-                        </p>
-                    </div>
-                    <div class="step">
                     <div class="row">
-					<div class="col-md-6 col-sm-6">
-						<div class="form-group">
-							<label>Fecha</label>
-							<input type="text" id="date_quote" name="date_quote" class="form-control datepicker" style="padding-left:12px;">
-						</div>
-					</div>
-                    <div class="col-md-6 col-sm-6">
-						<div class="form-group">
-							<label>Hora</label>
-							<select class="form-control" name="time_quote" id="time_quote">
-								<option value="" selected>Selecciona tu horario</option>
-								<option value="Morning">Mañana</option>
-								<option value="Afternoon">Tarde</option>
-							</select>
-						</div>
-					</div>
-				</div><!--End row -->
-			</div><!--End step -->
-
-			<div class="form_title">
-				<h3><strong><i class="icon-info-1"></i></strong>Información adicional</h3>
-				<p>
-					Mussum ipsum cacilds, vidis litro abertis.
-				</p>
-			</div>
-                    <div class="step">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-group options clearfix">
-                            <strong>Tienes un seguro para tu hogar/oficina?</strong>
-                                <label class="switch-light switch-ios pull-right">
-                                <input type="checkbox" name="option_1" id="option_1" value="Yes">
-                                <span>
-                                <span>Si</span>
-                                <span>No</span>
-                                </span>
-                                <a></a>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-group options clearfix">
-                                <strong>Eres un cliente nuevo?</strong>
-                                <label class="switch-light switch-ios pull-right">
-                                <input type="checkbox" name="option_2" id="option_2" checked value="Yes">
-                                <span>
-                                <span>No</span>
-                                <span>Sí</span>
-                                </span>
-                                <a></a>
-                                </label>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Déjanos un mensaje</label>
+                                <textarea rows="5" id="message_contact" name="message_contact" class="form-control" style="height:100px;"></textarea>
                             </div>
                         </div>
                     </div>
-                <div class="row">
-					<div class="col-md-6 col-sm-6">
-						<div class="form-group options clearfix">
-							<strong>Es urgente?</strong>
-							<label class="switch-light switch-ios pull-right">
-                            <input type="checkbox" name="option_3" id="option_3" value="Yes">
-                            <span>
-                            <span>No</span>
-                            <span>Sí</span>
-                            </span>
-                            <a></a>
-                            </label>
-						</div>
-					</div>
-				</div><!--End row -->
-			</div><!--End step -->
+                </form>
+           </div><!-- End col-md-9 -->
 
-            <div class="form_title">
-                <h3><strong><i class="icon-pencil-7"></i></strong>Cuéntanos, qué necesitas?</h3>
-                <p>
-                 	Mussum ipsum cacilds, vidis litro abertis.
-                </p>
-            </div>
-				<div class="step add_bottom_30">
-					<div class="form-group add_bottom_45">
-						<label>Escribe aquí tu mensaje.</label>
-						<textarea name="message_quote" id="message_quote" style="height:100px" class="form-control"></textarea>
-					</div>
-					<button type="submit" class="btn_1 medium">Enviar</button>
-				</div>
-				<!--End step -->
-
-				</form>
-                </div><!-- End col-md-9 -->
-
-                <div class="col-md-3">
+           <div class="col-md-3">
                 	<div class="box_style_2">
-                    	<h4>Necesitas ayuda?</h4>
-                        <h5><i class="icon_globe"></i> Llámanos</h5>
+                        <h5>Visítanos</h5>
                             <ul>
-                                <li><strong>Ventas</strong><br><a href="tel://+59332586728"> 32586728</a> - <a href="tel://+59332586728"> 32586728</a><br><small>Lunes a viernes 8am - 5pm</small></li>
-                                <li><strong>Asistencia 24h</strong><br><a href="tel://+59332586728"> 32586728</a></li>
-                                <li><strong>Información General</strong><br><a href="tel://+59332586728"> 32586728</a><br><small>Lunes a viernes 8am - 5pm</small></li>
+                                <li><strong>Remigio Crespo y Psje. Romeo Castillo</strong><br>Ambato - Ecuador</li>
                             </ul>
-                             <h5><i class="icon_mail_alt"></i> Escríbenos</h5>
+                             <h5>Contáctanos</h5>
                             <ul>
-                                <li><strong>Información general</strong><br><a href="mailto:info@alfapaz.com">info@alfapaz.com</a></li>
-                                <li><strong>Solicita una visita</strong><p class="nopadding">Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel.<br><a href="mailto:visitas@alfapaz.com">visitas@alfapaz.com</a></p></li>
+                            	 <li><strong>Atención al cliente</strong><br><a href="tel://+59332586728"> +59332586728</a></li>
+                                <li><strong>Información</strong><br><a href="tel://+59332586728"> +59332586728</a><br><small>Lunes a viernes 8am - 5pm</small></li>
+                                <li><strong>Información General</strong><br><a href="mailto:info@domain.com">info@alfapaz.com</a></li>
+                                <li><strong>Deseas una visita?</strong><p class="nopadding">Id pri consul aeterno petentium. Vivendo abhorreant et vim, et quot persecuti mel.<br><a href="mailto:visitas@alfapaz.com">visitas@alfapaz.com</a></p></li>
                             </ul>
                     </div>
+                    <div class="quote_banner"><a href="quotation.html">Quieres Cotizar?</a></div>
                 </div><!-- End col-md-3 -->
-
             </div><!-- End row -->
         </div><!-- End container -->
 	</main><!-- End main -->
@@ -361,18 +233,20 @@
     </div><!-- End copy -->
   </footer><!-- End footer -->
 
+	<div id="toTop"></div><!-- Back to top button -->
+
 	<!-- Common scripts -->
 	<script src="js/jquery-2.2.4.min.js"></script>
 	<script src="js/common_scripts_min.js"></script>
 	<script src="js/functions.js"></script>
 
-	<!-- Specific scripts -->
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/bootstrap-datepicker.js"></script>
-	<script>
-	  $('.datepicker').datepicker();
-	  $("#quotation").validate();
-	</script>
+	<!-- GOOGLE MAP -->
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="js/mapmarker.jquery.js"></script>
+	<script type="text/javascript" src="js/mapmarker_func.jquery.js"></script>
+
+	<!-- Form validation -->
+	<script src="assets/validate.js"></script>
 
 </body>
 </html>
