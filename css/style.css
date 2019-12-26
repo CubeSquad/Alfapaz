@@ -1,10 +1,10 @@
 /*
-Theme Name: HOMEALARMS 
+Theme Name: HOMEALARMS
 Theme URI: http://www.ansonika.com/homealarms/
 Author: Ansonika
 Author URI: http://themeforest.net/user/Ansonika/
 
-[Table of contents] 
+[Table of contents]
 
 1. SITE STRUCTURE and TYPOGRAPHY
 - 1.1 Typography
@@ -63,8 +63,8 @@ strong {
 	font-weight: 600;
 }
 .main_title {
-	background-color:rgba(0, 37, 74, 0.8); 
-	display:inline-block; 
+	background-color:rgba(0, 37, 74, 0.8);
+	display:inline-block;
 	padding:15px 15px 0 15px;
 	position:absolute;
 	margin-left:15px;
@@ -98,7 +98,7 @@ a.button_intro, .button_intro  {
 	text-transform:uppercase;
 	font-weight:600;
 	-webkit-transition: none;
-	transition:none; 
+	transition:none;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
@@ -667,7 +667,7 @@ ul#top_links a:hover{
   -moz-animation-name: bounceOutUp;
   -o-animation-name: bounceOutUp;
   animation-name: bounceOutUp; }
-  
+
 .parallax_window_in {
 	height: 550px;
 	position: relative;
@@ -701,12 +701,14 @@ ul#top_links a:hover{
 	text-transform: uppercase;
 	font-size: 42px;
 	margin-bottom: 0;
+	text-shadow: 1px 1px 2px black;
 }
 
 #sub_content_in p {
 	color: #fff;
 	font-size: 24px;
 	font-weight: 300;
+	text-shadow: 1px 1px 2px black;
 }
 
 /* Main area  */
@@ -1068,12 +1070,12 @@ video {
 /*-------- 2.2 About us --------*/
 #intro{
 	text-align:center;
-} 
+}
 #intro h2{
 	text-transform:uppercase;
 	font-weight:700;
 	margin-top:0;
-} 
+}
 
 ul.feat#about{
 	list-style:none;
@@ -1388,7 +1390,7 @@ ul.feat li img{
 	position:relative;
 	top:5px;
 }
-/* Error validate style */   
+/* Error validate style */
 label.error{
 	font-size:11px;
 	position: absolute;
@@ -1401,7 +1403,7 @@ label.error{
 	color:#fff;
 	font-weight:normal;
 	padding:0 6px;
-   } 
+   }
   label.error:after {
 	content: '';
 	position: absolute;
@@ -1413,7 +1415,7 @@ label.error{
 	z-index: 1;
 	bottom: -6px;
 	left: 20%;
-} 
+}
 
 /*-------- 2.5 Quotation --------*/
 .button-back {float: left; }
@@ -1457,19 +1459,19 @@ ul.stepy-titles { margin:0; padding:0;}
 .form-control.error{ background:#fdf5f5}
 .stepy-error{ display:block;}
 .stepy-error label.error {
-	background: #e34f4f url(../img/alert.png) no-repeat 5px center; 
-	color: #fff; 
-	display: block; 
-	display:inline-block; 
-	font-size: 12px ; 
-	padding: 4px 10px 0px  25px;  
-	margin:8px 5px 2px 0; 
-	-khtml-border-radius: 3px; 
-	-moz-border-radius: 3px; 
-	-opera-border-radius: 3px; 
-	-webkit-border-radius: 3px; 
-	border-radius: 3px;  
-	position:static; 
+	background: #e34f4f url(../img/alert.png) no-repeat 5px center;
+	color: #fff;
+	display: block;
+	display:inline-block;
+	font-size: 12px ;
+	padding: 4px 10px 0px  25px;
+	margin:8px 5px 2px 0;
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-opera-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	position:static;
 	line-height:normal;
     font-weight: 500;
 }
@@ -1579,7 +1581,7 @@ a.call_us_bt{
 	padding: 10px 15px;
 	font-size: 18px;
 	font-weight: 600;
-	
+
 }
  /*-------- 2.6 Tips/faq --------*/
 .box_style_4{
@@ -1587,18 +1589,18 @@ a.call_us_bt{
 	padding:25px;
 	margin-bottom:20px;
 	border-top: 3px solid #FF3333;
-} 
+}
 .box_style_4 ul{
 	padding:0 0 0 25px;
 	margin:0 0 0 0;
-} 
+}
 .box_style_4 ul li{
 	margin: 0 0 10px 0;
-} 
+}
 
 /*-------- 2.7 Contacts --------*/
 #map {width:100%; height:350px; border:3px solid #ededed;}
-.box_style_4 h3{margin-top:0;} 
+.box_style_4 h3{margin-top:0;}
 .error_message {font-weight:bold; color:#e34f4f; margin-bottom:5px}
 
 /*============================================================================================*/
@@ -1660,7 +1662,7 @@ a.call_us_bt{
 .quote_banner a:hover{
 	background-color:#333;
 }
-/* Input form style */   
+/* Input form style */
 .form-control {
   font-size: 14px;
   color: #333;
@@ -1670,9 +1672,9 @@ height: 40px;
 #booking .form-group{
 	position:relative;
 }
-/* Scroll top button */      
+/* Scroll top button */
 #toTop {
-	width:40px; 
+	width:40px;
 	height:40px;
 	background-color:rgba(0, 0, 0, 0.6);
 	text-align:center;
@@ -1789,7 +1791,7 @@ ul.list_2 li:before {
    display: table;
    width:100%;
    height:500px;
-   background: url(../img/bg_parallax.jpg) no-repeat center center; 
+   background: url(../img/bg_parallax.jpg) no-repeat center center;
    background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -1883,13 +1885,13 @@ ul.list_2 li:before {
 	width:100%;
 	height:100%;
 	bottom:0;
-	background-color:#fff; 
-	z-index:999999; 
+	background-color:#fff;
+	z-index:999999;
 }
 .sk-spinner-wave.sk-spinner {
-  margin:-15px 0 0 -25px; 
+  margin:-15px 0 0 -25px;
   position:absolute;
-  left:50%; 
+  left:50%;
   top:50%;
   width: 50px;
   height: 30px;
@@ -1920,7 +1922,7 @@ ul.list_2 li:before {
   20% { -webkit-transform: scaleY(1);transform: scaleY(1);}
 }
 
-/** Collapse **/   
+/** Collapse **/
 .panel {
   border-radius: 0;
   -webkit-box-shadow: none;
@@ -1941,19 +1943,19 @@ ul.list_2 li:before {
 
 .loader { margin-left:5px; position:absolute;}
 
-/** Blockquote **/   
+/** Blockquote **/
 blockquote.styled{
 	font-style: italic;
 	font-size: 16px;
 	 line-height: 1.7;
 }
 
-/** tabs **/   
+/** tabs **/
 .tab-content{
-	padding:30px; 
-	background-color:#fff; 
-	border:1px solid #ddd; 
-	border-top:none; 
+	padding:30px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	border-top:none;
 	margin-bottom:25px;
 	-webkit-border-bottom-right-radius: 3px;
 	-webkit-border-bottom-left-radius: 3px;
@@ -1963,7 +1965,7 @@ blockquote.styled{
 	border-bottom-left-radius: 3px;
 }
 
-/** Carousel (about page)**/   
+/** Carousel (about page)**/
 .owl-carousel .animated {
 	-webkit-animation-duration: 1000ms;
 	animation-duration: 1000ms;
@@ -2015,7 +2017,7 @@ blockquote.styled{
 	width: 100%;
 	-webkit-tap-highlight-color: transparent;
 	/* position relative and z-index fix webkit rendering fonts issue */
-	
+
 	position: relative;
 	z-index: 1;
 }
@@ -2038,7 +2040,7 @@ blockquote.styled{
 	position: relative;
 	overflow: hidden;
 	/* fix for flashing background */
-	
+
 	-webkit-transform: translate3d(0px, 0px, 0px);
 }
 
