@@ -922,15 +922,15 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	margin-bottom: 7px;
 }
 .box_feat span {
-    width: 90px;
-    height: 90px;
+    width: 45px;
+    height: 45px;
     top: 0;
     left: 0;
     position: absolute;
     background-color: #fff;
-    border-radius: 50px;
+    border-radius: 90px;
     text-align: center;
-    line-height: 90px;
+    line-height: 45px;
 }
 
 #feat_home h2{
