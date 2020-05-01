@@ -135,6 +135,17 @@
               </div>
               <div style="padding-bottom: 18px;font-size : 24px;">Buscamos nuevos talentos.</div>
               <div style="padding-bottom: 18px;font-size : 18px;">Recuerda llenar cada uno de los campos con información correcta y que nos permita comunicarnos contigo.</div>
+              <div style="padding-bottom: 18px;font-size : 18px;">Requisitos indispensables</div>
+              <ul>
+                <li><i class=></i>Título de bachiller</li>
+                <li><i class=></i>Edad: entre 25 y 50 años</li>
+                <li><i class=></i>Experiencia mínima: 1 año</li>
+                <li><i class=></i>Credencial otorgada por el Ministerio del Interior (Curso 120 horas)</li>
+                <li><i class=></i>Curso de reentrenamiento (En caso de poseer)</li>
+                <li><i class=></i>No poseer antecedentes penales o judiciales</li>
+                <li><i class=></i>Disponibilidad completa</li>
+              </ul>
+              <div style="padding-bottom: 18px;font-size : 18px;">Información Personal</div>
               <div style="display: flex; padding-bottom: 18px;width : 450px;">
               <div style=" margin-left : 0; margin-right : 1%; width : 49%;">Nombres<span style="color: red;"> *</span><br/>
                 <input type="text" id="data_3" name="data_3" style="width: 100%;" class="form-control"/>
@@ -148,56 +159,27 @@
               <div style="padding-bottom: 18px;">Número telefónico<span style="color: red;"> *</span><br/>
                 <input type="text" id="data_6" name="data_6" style="width : 450px;" class="form-control"/>
               </div>
-              <div style="padding-bottom: 18px;font-size : 18px;">Información Profesional</div>
-              <div style="padding-bottom: 18px;">Posición a la que se está aplicando<span style="color: red;"> *</span><br/>
-                <input type="text" id="data_9" name="data_9" style="width : 450px;" class="form-control"/>
-              </div>
-              <div style="padding-bottom: 18px;">Adjunta tu hoja de vida<br/>
+              <div style="padding-bottom: 9px;font-size : 18px;">Información Profesional</div>
+              <div style="padding-bottom: 18px;"><strong>Adjunta la siguiente informaciónen un archivo comprimido (ZIP,RAR,7ZIP):<span style="color: red;"> *</span></strong><br/>
+              Hoja de vida, cédula y certificado de votación, Carné del Ministerio de Gobierno, Certificado del Curso de Re-entrenamiento, Licencia de conducir, Acta de grado, Certificados laborales, Diplomas de cursos realizados, Certificado de antecedentes penales, Certificado médico que acredite excelente salud, dísica y mental (otorgado por la Red de Salud Pública del Ecuador)<br/>
                 <input id="data_10" name="data_10" style="width : 450px;" type="file" class="form-control"/>
               </div>
-              <div style="padding-bottom: 18px;">Enlaces de interés (Linked-in, portfolio personal, etc.)<br/>
-                <input type="text" id="data_11" name="data_11" style="width : 450px;" class="form-control"/>
-              </div>
-              <div style="padding-bottom: 18px;">Cuándo puedes comenzar?<br/>
+              <div style="padding-bottom: 18px;">Cuándo puedes comenzar?<span style="color: red;"> *</span><br/>
                 <input type="text" id="data_13" name="data_13" style="width : 450px;" class="form-control"/>
               </div>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
                 <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
               <script type="text/javascript">new Pikaday({ field: document.getElementById('data_13') });</script>
-              <div style="padding-bottom: 18px;">Estás dispuesto/a a residir fuera de tu ciudad?<br/>
+              <div style="padding-bottom: 18px;">Estás dispuesto/a a residir fuera de tu ciudad?<span style="color: red;"> *</span><br/>
                 <span><input type="radio" id="data_14_0" name="data_14" value="Yes"/> Si</span><br/>
                 <span><input type="radio" id="data_14_1" name="data_14" value="No"/> No</span><br/>
                 <span><input type="radio" id="data_14_2" name="data_14" value="Not sure"/> No estoy seguro/a</span><br/>
               </div>
+            </div><!--End row -->
+          </div><!--End step -->
 
-              <div class="form-group options clearfix">
-                  <strong>Cuentas con certificación?</strong>
-                  <label class="switch-light switch-ios pull-right">
-                  <input type="checkbox" name="option_2" id="option_2" checked value="Yes">
-                  <span>
-                  <span>Sí</span>
-                  </span>
-                  <a></a>
-                  </label>
-              </div>
-              <div class="form-group options clearfix">
-                  <strong>Cuentas con reentrenamiento?</strong>
-                  <label class="switch-light switch-ios pull-right">
-                  <input type="checkbox" name="option_2" id="option_2" checked value="Yes">
-                  <span>
-                  <span>Sí</span>
-                  </span>
-                  <a></a>
-                  </label>
-              </div>
-   </div><!--End row -->
- </div><!--End step -->
-
-              <div style="padding-bottom: 18px;"> Cuál es la última empresa para la que trabajaste?<br/>
+              <div style="padding-bottom: 18px;"> Cuál es la última empresa para la que trabajaste?<span style="color: red;"> *</span><br/>
                 <input type="text" id="data_15" name="data_15" style="width : 450px;" class="form-control"/>
-              </div>
-              <div style="padding-bottom: 18px;">Déjanos un mensaje<br/>
-                <textarea id="data_16" false name="data_16" style="width : 450px;" rows="6" class="form-control"></textarea>
               </div>
               <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Enviar" class="btn_1 green medium add_bottom_30" type="submit"/></div>
               <!-- <div>
@@ -241,25 +223,7 @@
                 }
               </script>
            </div><!-- End col-md-9 -->
-
-           <div class="col-md-3">
-                	<div class="box_style_2">
-                        <h5>Visítanos</h5>
-                            <ul>
-                                <li><strong>Remigio Crespo y Psje. Romeo Castillo</strong><br>Ambato - Ecuador</li>
-                            </ul>
-                             <h5>Contáctanos</h5>
-                            <ul>
-                            	 <li><strong>Atención al cliente</strong><br><a href="tel://+59332586728"> +59332586728</a></li>
-                                <li><strong>Información</strong><br><a href="tel://+59332586728"> +59332586728</a><br><small>Lunes a viernes 8am - 5pm</small></li>
-                                <li><strong>Información General</strong><br><a href="mailto:info@alfapaz.com">info@alfapaz.com</a></li>
-                                <li><strong>Deseas una visita?</strong><p class="nopadding">Quieres que un equipo especializado te visite?<br><a href="mailto:visitas@alfapaz.com">visitas@alfapaz.com</a></p></li>
-                            </ul>
-                    </div>
-                </div><!-- End col-md-3 -->
-            </div><!-- End row -->
-        </div><!-- End container -->
-	</main><!-- End main -->
+	        </main><!-- End main -->
 
   <footer>
     <div class="container">
