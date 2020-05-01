@@ -922,13 +922,13 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
 	margin-bottom: 7px;
 }
 .box_feat span {
-    width: 45px;
-    height: 45px;
+    width: 90px;
+    height: 90px;
     top: 0;
     left: 0;
     position: absolute;
     background-color: #fff;
-    border-radius: 90px;
+    border-radius: 45px;
     text-align: center;
     line-height: 45px;
 }
