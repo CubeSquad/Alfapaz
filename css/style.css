@@ -928,9 +928,9 @@ ul#contact_details_footer li#address_footer, ul#contact_details_footer li#phone_
     left: 0;
     position: absolute;
     background-color: #fff;
-    border-radius: 50px;
+    border-radius: 45px;
     text-align: center;
-    line-height: 90px;
+    line-height: 45px;
 }
 
 #feat_home h2{
