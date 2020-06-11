@@ -17,31 +17,31 @@ $message_contact = $_POST['message_contact'];
 $verify_contact   = $_POST['verify_contact'];
 
 if(trim($name_contact) == '') {
-	echo '<div class="error_message">You must enter your Name.</div>';
+	echo '<div class="error_message">Es un campo requerido.</div>';
 	exit();
 } else if(trim($lastname_contact ) == '') {
-	echo '<div class="error_message">You must enter your Last name.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 } else if(trim($email_contact) == '') {
-	echo '<div class="error_message">Please enter a valid email address.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 } else if(!isEmail($email_contact)) {
-	echo '<div class="error_message">You have enter an invalid e-mail address, try again.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 	} else if(trim($phone_contact) == '') {
-	echo '<div class="error_message">Please enter a valid phone number.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 } else if(!is_numeric($phone_contact)) {
-	echo '<div class="error_message">Phone number can only contain numbers.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 } else if(trim($message_contact) == '') {
-	echo '<div class="error_message">Please enter your message.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 } else if(!isset($verify_contact) || trim($verify_contact) == '') {
-	echo '<div class="error_message"> Please enter the verification number.</div>';
+	echo '<div class="error_message"> Es un campo requerido</div>';
 	exit();
 } else if(trim($verify_contact) != '4') {
-	echo '<div class="error_message">The verification number you entered is incorrect.</div>';
+	echo '<div class="error_message">Es un campo requerido</div>';
 	exit();
 }
 
@@ -51,16 +51,16 @@ if(get_magic_quotes_gpc()) {
 
 
 //$address = "HERE your email address";
-$address = "info@domain.com";
+$address = "webmaster@alfapaz.com";
 
 
 // Below the subject of the email
-$e_subject = 'You\'ve been contacted by ' . $name_contact . '.';
+$e_subject = 'Has sido contactado por ' . $name_contact . '.';
 
 // You can change this if you feel that you need to.
-$e_body = "You have been contacted by $name_contact $lastname_contact with additional message is as follows." . PHP_EOL . PHP_EOL;
+$e_body = "Has sido contactado por $name_contact $lastname_contact con el mensaje que detalla de la siguiente manera:." . PHP_EOL . PHP_EOL;
 $e_content = "\"$message_contact\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $lastname_contact via email, $email_contact or via phone $phone_contact";
+$e_reply = "Puedes responder a $lastname_contact via email, $email_contact o por teléfono al $phone_contact";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
@@ -71,9 +71,9 @@ $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email_contact";
-$usersubject = "Thank You";
-$userheaders = "From: info@domain.com\n";
-$usermessage = "Thank you for contact HomeAlarms. We will reply shortly!";
+$usersubject = "Gracias por contactarnos";
+$userheaders = "From: info@alfapaz.com\n";
+$usermessage = "Gracias por contactarnos, te responderemos muy pronto!";
 mail($user,$usersubject,$usermessage,$userheaders);
 
 if(mail($address, $e_subject, $msg, $headers)) {
@@ -81,7 +81,7 @@ if(mail($address, $e_subject, $msg, $headers)) {
 	// Success message
 	echo "<div id='success_page' style='padding:20px 20px 20px 0'>";
 	echo "<strong >Email Sent.</strong>";
-	echo "Thank you <strong>$name_contact</strong>,<br> your message has been submitted. We will contact you shortly.";
+	echo "Thank you <strong>$name_contact</strong>,<br> Tu mensaje ha sido enviado, te contactaremos en breve.";
 	echo "</div>";
 
 } else {
