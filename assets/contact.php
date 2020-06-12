@@ -17,31 +17,16 @@ $message_contact = $_POST['message_contact'];
 $verify_contact   = $_POST['verify_contact'];
 
 if(trim($name_contact) == '') {
-	echo '<div class="error_message">Es un campo requerido.</div>';
+	echo '<div class="error_message">El nombre es un campo requerido.</div>';
 	exit();
 } else if(trim($lastname_contact ) == '') {
-	echo '<div class="error_message">Es un campo requerido</div>';
-	exit();
-} else if(trim($email_contact) == '') {
-	echo '<div class="error_message">Es un campo requerido</div>';
+	echo '<div class="error_message">El apellido es un campo requerido</div>';
 	exit();
 } else if(!isEmail($email_contact)) {
-	echo '<div class="error_message">Es un campo requerido</div>';
+	echo '<div class="error_message">El correo es un campo requerido</div>';
 	exit();
 	} else if(trim($phone_contact) == '') {
-	echo '<div class="error_message">Es un campo requerido</div>';
-	exit();
-} else if(!is_numeric($phone_contact)) {
-	echo '<div class="error_message">Es un campo requerido</div>';
-	exit();
-} else if(trim($message_contact) == '') {
-	echo '<div class="error_message">Es un campo requerido</div>';
-	exit();
-} else if(!isset($verify_contact) || trim($verify_contact) == '') {
-	echo '<div class="error_message"> Es un campo requerido</div>';
-	exit();
-} else if(trim($verify_contact) != '4') {
-	echo '<div class="error_message">Es un campo requerido</div>';
+	echo '<div class="error_message">El número de teéfono es un campo requerido</div>';
 	exit();
 }
 
@@ -80,8 +65,8 @@ if(mail($address, $e_subject, $msg, $headers)) {
 
 	// Success message
 	echo "<div id='success_page' style='padding:20px 20px 20px 0'>";
-	echo "<strong >Email Sent.</strong>";
-	echo "Thank you <strong>$name_contact</strong>,<br> Tu mensaje ha sido enviado, te contactaremos en breve.";
+	echo "<strong >Perfecto. </strong>";
+	echo "Gracias. <strong>$name_contact</strong>,<br> Tu mensaje ha sido enviado, te contactaremos en breve.";
 	echo "</div>";
 
 } else {
