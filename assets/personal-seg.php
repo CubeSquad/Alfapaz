@@ -50,10 +50,10 @@ $e_subject = 'Has sido contactado por ' . $name_contact . '.';
 
 // You can change this if you feel that you need to.
 $e_body = "Has sido contactado por $name_contact $lastname_contact con el mensaje que detalla de la siguiente manera:." . PHP_EOL . PHP_EOL;
-$e_body = "Ha respondido en ¿Cuándo puedes comenzar?: $disponibilidad "
-"Ha respondido en ¿A qué ciudad aplicarías?: $ciudad " 
-"Ha respondido en ¿Estarías dispuesto a residir en otra ciudad?: $ciudad "
-"Ha respondido en ¿Cuál fue la última empresa en la que trabajaste?: $empresa "
+$e_body = "Ha respondido en ¿Cuándo puedes comenzar?: $disponibilidad " . PHP_EOL . PHP_EOL;
+"Ha respondido en ¿A qué ciudad aplicarías?: $ciudad " . PHP_EOL . PHP_EOL;
+"Ha respondido en ¿Estarías dispuesto a residir en otra ciudad?: $ciudad " . PHP_EOL . PHP_EOL;
+"Ha respondido en ¿Cuál fue la última empresa en la que trabajaste?: $empresa " . PHP_EOL . PHP_EOL;
 "Ha adjuntado su hoja de vida.: $cv " . PHP_EOL . PHP_EOL;
 
 $e_content = "\"$disponibilidad\"" . PHP_EOL . PHP_EOL;
