@@ -1,9 +1,4 @@
 /*
-Theme Name: HOMEALARMS
-Theme URI: http://www.ansonika.com/homealarms/
-Author: Ansonika
-Author URI: http://themeforest.net/user/Ansonika/
-
 [Table of contents]
 
 1. SITE STRUCTURE and TYPOGRAPHY
@@ -693,7 +688,6 @@ ul#top_links a:hover{
 	padding: 45px 0 0 0;
 	vertical-align: bottom;
 	text-align: left;
-	background: rgba(0, 0, 0, 0.7);
 }
 #sub_content_in h1 {
 	color: #fff;
