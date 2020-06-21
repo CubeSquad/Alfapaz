@@ -2561,8 +2561,8 @@ html
 					  display: flex;
 					  flex-shrink: 0;
 					  align-items: center;
-					  height: 100px;
-					  width: 100px;
+					  height: 300px;
+					  width: 300px;
 					}
 
 					div img {
