@@ -2425,14 +2425,13 @@ body#confirmation {
 }
 
 div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+  margin: auto;
   float: left;
-  width: 180px;
+  width: 150px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 0px solid #777;
 }
 
 div.gallery img {
